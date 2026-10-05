@@ -1,0 +1,8 @@
+IAM Least Privilege Guidance
+
+IAM policies should grant only the specific actions and resources a role
+requires. Wildcard actions (iam:*) or wildcard resources (Resource: "*")
+should be avoided in production. Use policy conditions to further scope
+access by tag, region, or source IP where possible. Review attached
+policies quarterly using IAM Access Analyzer to identify unused
+permissions that can be safely revoked.

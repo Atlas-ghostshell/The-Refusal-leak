@@ -1,0 +1,9 @@
+GuardDuty Finding Triage Notes
+
+GuardDuty findings are scored by severity from 1.0 to 8.9. Findings above
+7.0 (High) should trigger immediate SOC review, particularly
+UnauthorizedAccess and CredentialAccess finding types. Findings between
+4.0 and 6.9 (Medium) can be batched for daily review. Always correlate a
+GuardDuty finding against CloudTrail logs for the same time window before
+closing it as a false positive — GuardDuty alone does not show the full
+API call context.
