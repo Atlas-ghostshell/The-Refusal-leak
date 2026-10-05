@@ -115,7 +115,7 @@ None of this generalizes without limits. Cells hold one to three runs from one a
 
 ## Findings Report
 
-[`Week6_Prompt_Injection_Jailbreaking_Findings.pdf`](/Findings_report/Week6_Prompt_Injection_Jailbreaking_Findings.pdf) — all twelve techniques, per-attack mechanism and result, five cross-cutting findings, limitations, and hardening recommendations.
+[`Week6_Prompt_Injection_Jailbreaking_Findings.pdf`](/Findings_report/Week6_Prompt_Injection_Jailbreaking_Findings(2).pdf) — all twelve techniques, per-attack mechanism and result, five cross-cutting findings, limitations, and hardening recommendations.
 
 ## Part of the AI Security Engineering Roadmap
 
