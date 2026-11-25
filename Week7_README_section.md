@@ -24,7 +24,7 @@ So the defense stack grew a third layer: a second Bedrock call, `judge.py`, that
                    | + topic policy (Persona Collapse)  |
                    +-----------------------------------+
   blocked                           |                          passed
-                                     v                           v
+                                    v
              +------------------+        +------------------------+
              |  canned refusal  |        | Target model generates |
              | (pre-generation) |        |   its real response    |
@@ -38,7 +38,7 @@ So the defense stack grew a third layer: a second Bedrock call, `judge.py`, that
                                    | would self-block its own verdict)    |
                                    +--------------------------------------+
                                        LEAK  |                |  SAFE
-                                              v                v
+                                             v                v
                                +-----------------------+   +---------------+
                                |     canned refusal    |   | real response |
                                | (post-judge override) |   | shown to user |
@@ -128,3 +128,18 @@ Limits on all of this: every v7 result above is a single run per persona, per at
 ## Findings Report
 
 [`Week7_Defense_Hardening_Findings.pdf`](/Findings_report/Week7_Defense_Hardening_Findings.pdf) — full guardrail version history, judge calibration record including the logging-bug correction, and both re-baseline runs in full.
+
+## Part of the AI Security Engineering Roadmap
+
+| Week  | Focus                                                         | Status       |
+| ----- | ------------------------------------------------------------- | ------------ |
+| 1     | What AI/ML Actually Is                                        | Complete     |
+| 2     | How Neural Networks Work                                      | Complete     |
+| 3     | How LLMs Specifically Work                                    | Complete     |
+| 4     | The Modern AI Application Stack                               | Complete     |
+| 5     | AI Security Core Begins — OWASP LLM Top 10                    | Complete     |
+| 6     |   Prompt Injection & Jailbreaking — Offense                   | Complete     |
+| **7** | **Prompt Injection & Jailbreaking — Defense**                 | **Complete** |
+| 8–9   | Adversarial ML & Agentic AI Security, MITRE ATLAS             | Upcoming     |
+| 10–12 | Securing AI in the Cloud (Bedrock, SageMaker, AI supply chain) | Upcoming    |
+| 13–14 | Capstone: Black-Box Red Team Assessment, Portfolio Consolidation | Upcoming  |
